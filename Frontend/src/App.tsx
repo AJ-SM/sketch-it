@@ -1,14 +1,14 @@
 
 import './App.css'
 
-import {Rectangle} from "../Components/Rectangle"
+import {Workspace} from "../Components/Workspace"
 
 function App() {
 
 
   return (
     <>
-      <Rectangle/>
+      <Workspace/>
       
      
     </>
