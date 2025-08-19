@@ -30,9 +30,10 @@ export function Workspace(){
       
         <Stage  height={window.innerHeight} width={window.innerWidth}  onMouseMove={getPosup} onMouseDown={getPosDown} >
             <Layer>
-                <Circle x={1000} y={100} radius={100} stroke={"white"} strokeWidth={2}/>
+                
 
-        <Arrow
+    {/* Arrows, Rectangle , Circle Are Added */}
+        {/* <Arrow
           x={dloc.x}
           y={dloc.y}
           points={[0, 0, uloc.x-dloc.x, uloc.y-dloc.y]}
@@ -41,7 +42,31 @@ export function Workspace(){
           fill="white"
           stroke="white"
           strokeWidth={3}
-        />
+        /> */}
+
+        {/* <Rect
+        x={dloc.x}
+        y={dloc.y}
+        height={uloc.y-dloc.y}
+        width={uloc.x-dloc.x}
+        stroke={"white"}
+        strokeWidth={3}
+        // cornerRadius={10}
+        /> */}
+
+        {/* <Circle
+        x={dloc.x}
+        y={dloc.y}
+        radius={Math.sqrt(
+            Math.pow(dloc.x - uloc.x, 2) + Math.pow(dloc.y - uloc.y, 2)
+        )}
+        stroke="white"
+        strokeWidth={2}
+        /> */}
+
+
+
+
 
 
 
